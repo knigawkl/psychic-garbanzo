@@ -34,16 +34,27 @@ a ``MapReduce`` działa na klastrze maszyn. Frameworki porównano w artykule
 W zrównoleglonej implementacji sortowania przez scalanie wykorzystano ``RecursiveAction``.
 Szczegółem implementacyjnym jest stwierdzenie, jakiej wielkości tablice mają być już sortowane, a nie dzielone na mniejsze.
 
-.. list-table:: Title
+.. list-table:: Porównanie czasów sortowania algorytmem sekwencyjnym i zrównoleglonym w zależności od długości tablicy
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+   * - Długość tablicy
+     - Czas sortowania algorytmem sekwencyjnym [ms]
+     - Czas sortowania algorytmem zrównoleglonym [ms]
+   * - 100000000
+     - 11782
+     - 5125
+   * - 10000000
+     - 1246
+     - 597
+   * - 1000000
+     - 138
+     - 106
+   * - 100000
+     - 17
+     - 24
+   * - 10000
+     - 3ms
+     - 6ms
+
+
