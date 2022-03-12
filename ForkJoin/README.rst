@@ -1,6 +1,13 @@
 Zaimplementowano sekwencyjny oraz zrównoleglony algorytm sortowania ``Merge Sort``.
 Porównania wydajności algorytmów dokonano przy pomocy profilera wbudowanego w ``Intellij IDEA``.
 
+Sortowanie przez scalanie to rekurencyjny algorytm sortowania, stosujący metodę dziel i zwyciężaj.
+Wyróżnić można 3 podstawowe kroki.
+
+1. Podział zestawu danych na dwie równe części.
+2. Zastosowanie sortowania przez scalanie dla każdej z nich oddzielnie, chyba że pozostał już tylko jeden element.
+3. Połączenie posortowanych podciągów w jeden posortowany ciąg.
+
 ``ForkJoin`` to implementacja interfejsu ``ExecutorService`` przeznaczona do współbieżnego uruchomienia.
 Dzięki zastosowaniu ``ForkJoin`` nie musimy się martwić niskopoziomowymi synchronizacjami i zamkami.
 Framework ``ForkJoin`` jest algorytmem typu dziel i zwyciężaj, większe problemy są dzielone na mniejsze podproblemy,
@@ -25,6 +32,18 @@ a ``MapReduce`` działa na klastrze maszyn. Frameworki porównano w artykule
 ``Comparing Fork/Join and MapReduce``, którego autorami są Robert Stewart i Jeremy Singer.
 
 W zrównoleglonej implementacji sortowania przez scalanie wykorzystano ``RecursiveAction``.
-
 Szczegółem implementacyjnym jest stwierdzenie, jakiej wielkości tablice mają być już sortowane, a nie dzielone na mniejsze.
 
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3

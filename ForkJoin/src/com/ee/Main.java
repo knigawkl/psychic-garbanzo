@@ -7,7 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] nums = initializeNums();
+        int length = 100000000;
+        int[] nums = initializeNums(length);
         MergeSort mergesort = new MergeSort(nums);
 
         long start = System.currentTimeMillis();
@@ -21,13 +22,13 @@ public class Main {
         System.out.println("Time taken with concurrent sort: " + (System.currentTimeMillis() - start) + "ms");
     }
 
-    private static int[] initializeNums() {
+    private static int[] initializeNums(int length) {
 
         Random random = new Random();
 
-        int[] nums = new int[100000000];
+        int[] nums = new int[length];
 
-        for (int i = 0; i < 100000000; ++i)
+        for (int i = 0; i < length; ++i)
             nums[i] = random.nextInt(100);
 
         return nums;
