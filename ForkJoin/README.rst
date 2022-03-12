@@ -54,7 +54,7 @@ Szczegółem implementacyjnym jest stwierdzenie, jakiej wielkości tablice mają
      - 17
      - 24
    * - 10000
-     - 3ms
-     - 6ms
+     - 3
+     - 6
 
 
