@@ -60,10 +60,27 @@ Szczegółem implementacyjnym jest stwierdzenie, jakiej wielkości tablice mają
 
 Każdy prostokąt zawiera nazwę funkcji. Niebieskie prostokąty to natywne wywołania, a żółte to Javowe.
 
-CPU samples - algorytm sekwencyjny
+CPU samples (``Async Profiler``) - algorytm sekwencyjny
 
 .. image:: img/cpu-samples-seq.png
 
-CPU samples - algorytm zrównoleglony
+CPU samples (``Async Profiler``) - algorytm zrównoleglony
 
 .. image:: img/cpu-samples-parallel.png
+
+Alokacje pamięci (``Async Profiler``) - algorytm sekwencyjny
+
+.. image:: img/mem-alloc-seq.png
+
+Alokacje pamięci (``Async Profiler``) - algorytm zrównoleglony
+
+.. image:: img/mem-alloc-parallel.png
+
+Flamegraph (``Java Flight Recorder``) - algorytm sekwencyjny
+
+.. image:: img/flamegraph-seq.png
+
+Flamegraph (``Java Flight Recorder``) - algorytm zrównoleglony
+
+.. image:: img/flamegraph-parallel.png
+
