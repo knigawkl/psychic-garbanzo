@@ -60,6 +60,12 @@ Szczegółem implementacyjnym jest stwierdzenie, jakiej wielkości tablice mają
 
 Każdy prostokąt zawiera nazwę funkcji. Niebieskie prostokąty to natywne wywołania, a żółte to Javowe.
 
-![Alt text](img/cpu-samples-seq "CPU samples - algorytm sekwencyjny")
-![Alt text](img/cpu-samples-parallel "CPU samples - algorytm zrównoleglony")
+CPU samples - algorytm sekwencyjny
+
+![Alt text](img/cpu-samples-seq)
+
+CPU samples - algorytm zrównoleglony
+
+![Alt text](img/cpu-samples-parallel)
+
 
