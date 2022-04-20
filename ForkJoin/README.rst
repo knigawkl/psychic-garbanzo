@@ -62,10 +62,10 @@ Każdy prostokąt zawiera nazwę funkcji. Niebieskie prostokąty to natywne wywo
 
 CPU samples - algorytm sekwencyjny
 
-![Alt text](img/cpu-samples-seq)
+![Alt text](img/cpu-samples-seq.png)
 
 CPU samples - algorytm zrównoleglony
 
-![Alt text](img/cpu-samples-parallel)
+![Alt text](img/cpu-samples-parallel.png)
 
 
