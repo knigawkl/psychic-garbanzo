@@ -4,12 +4,6 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    private int[] nums;
-
-    public MergeSort(int[] nums) {
-        this.nums = nums;
-    }
-
     public void sort(int[] nums) {
 
         if (nums.length <= 1)

@@ -5,7 +5,7 @@ import java.util.concurrent.RecursiveAction;
 
 public class MergeSortTask extends RecursiveAction {
 
-    private int[] nums;
+    private final int[] nums;
 
     public MergeSortTask(int[] nums) {
         this.nums = nums;
