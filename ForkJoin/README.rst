@@ -1,5 +1,6 @@
 Zaimplementowano sekwencyjny oraz zrównoleglony algorytm sortowania ``Merge Sort``.
-Porównania wydajności algorytmów dokonano przy pomocy profilera wbudowanego w ``Intellij IDEA``.
+Porównania wydajności algorytmów dokonano przy pomocy profilera wbudowanego w ``Intellij IDEA``
+(zastosowano ``Async Profiler`` oraz ``Java Flight Recorder``).
 
 Sortowanie przez scalanie to rekurencyjny algorytm sortowania, stosujący metodę dziel i zwyciężaj.
 Wyróżnić można 3 podstawowe kroki.
@@ -57,4 +58,8 @@ Szczegółem implementacyjnym jest stwierdzenie, jakiej wielkości tablice mają
      - 3
      - 6
 
+Każdy prostokąt zawiera nazwę funkcji. Niebieskie prostokąty to natywne wywołania, a żółte to Javowe.
+
+![Alt text](img/cpu-samples-seq "CPU samples - algorytm sekwencyjny")
+![Alt text](img/cpu-samples-parallel "CPU samples - algorytm zrównoleglony")
 

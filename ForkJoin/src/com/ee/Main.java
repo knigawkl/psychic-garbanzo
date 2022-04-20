@@ -7,15 +7,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int length = 10000;
+        int length = 100000000;
         int[] nums = initializeNums(length);
         MergeSort mergesort = new MergeSort();
 
-//        mergesort.sort(nums);
+        mergesort.sort(nums);
 
-        MergeSortTask rootTask = new MergeSortTask(nums);
-        ForkJoinPool pool = new ForkJoinPool(Runtime.getRuntime().availableProcessors());
-        pool.invoke(rootTask);
+//        MergeSortTask rootTask = new MergeSortTask(nums);
+//        ForkJoinPool pool = new ForkJoinPool(Runtime.getRuntime().availableProcessors());
+//        pool.invoke(rootTask);
     }
 
     private static int[] initializeNums(int length) {
